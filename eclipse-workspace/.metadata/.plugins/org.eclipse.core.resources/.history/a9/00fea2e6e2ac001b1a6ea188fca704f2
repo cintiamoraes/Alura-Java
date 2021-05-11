@@ -1,0 +1,12 @@
+
+public class TestaFor {
+	
+	public static void main(String[] args) {
+		
+		for(contadort=0; contador<=10;contador++) {
+			
+			System.out.println(contador);
+		}
+		
+	}
+}

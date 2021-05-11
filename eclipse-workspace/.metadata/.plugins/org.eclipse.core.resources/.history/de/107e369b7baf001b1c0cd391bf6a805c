@@ -1,0 +1,26 @@
+public class Conta {
+
+	double saldo;
+    int agencia;
+    int numero;
+    String titular; 
+
+    public void deposita(double valor) { 
+    	
+        this.saldo += valor;//=-tira o valor dele mesmo, é a forma utilizada pelos programadores, 
+        //mas significa o mesmo que: this.saldo + valor
+        //This é uma palavra chave do Java que indica a referência para o objeto Conta (new Conta())
+    } 
+
+    public boolean saca(double valor) { 
+    	
+            if(this.saldo >= valor) { 
+            this.saldo -= valor; 
+            return true;
+            
+        } else {
+            return false;
+        }
+    }
+}
+
