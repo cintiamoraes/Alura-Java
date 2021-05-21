@@ -1,0 +1,18 @@
+package capituloI;
+
+import java.util.Scanner;
+
+public class IntroduccionCaracteresTeclado {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		System.out.println("Cómo te llamas");
+		
+		//escanea lo que troduce el usuário
+		//espera que el usuário introduzca una cadena de caracteres
+		//al pulsar la tecla Enter, escaneará la línea introducida
+		String nombre = scanner.nextLine();
+	}
+	
+}

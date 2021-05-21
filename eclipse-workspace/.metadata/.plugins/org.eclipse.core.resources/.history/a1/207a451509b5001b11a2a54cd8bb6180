@@ -1,0 +1,23 @@
+package capituloII;
+
+public class OperadoresAritmeticos {
+
+	public static void main(String[] args) {
+		
+		int numeroDos = 2;
+		int numeroTres = 3;
+		
+		int resultadoSuma = numeroDos + numeroTres;
+		System.out.println("el resultado de la suma es: "+ resultadoSuma);
+		
+		int resultadoResta = numeroTres - numeroDos;
+		System.out.println("Resta: " + resultadoResta );
+		
+		int numeroConCambioDeSigno = -numeroDos;
+		System.out.println("si aplicamos el operador resta al numedoDos obtenemos: " + numeroConCambioDeSigno );
+		
+		double resultadoMultiplicacion = numeroTres * 3.5;//al multiplicarmos un tipo double con un tipo int obtenemos el tipo double como resultado
+		System.out.println(resultadoMultiplicacion);
+	}
+	
+}

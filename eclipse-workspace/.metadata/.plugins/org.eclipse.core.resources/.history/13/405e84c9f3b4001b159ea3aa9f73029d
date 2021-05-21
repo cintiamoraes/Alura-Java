@@ -1,0 +1,16 @@
+package capituloII;
+
+public class Literales {
+
+	public static void main(String[] args) {
+		
+		int enteroDecimal = 100; // 100 es un entero decimal 
+		int enteroOctal = 0100; //0100 es 64 en sistema decimal
+		int enteroHexadecimal = 0x100;// es equivalente a 256 em hexadecimal
+		
+		System.out.println("enteroHexadecimal es " + enteroHexadecimal);
+		
+		
+		long numeroLong = 100L;
+	}
+}

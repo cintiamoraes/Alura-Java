@@ -1,0 +1,12 @@
+package capituloII;
+
+public class OperadoresRelacionales {
+	
+	public static void main(String[] args) {
+		
+		boolean esUnoMayorQueDos = 1 > 2;
+		System.out.println(esUnoMayorQueDos);out
+		
+	}
+
+}

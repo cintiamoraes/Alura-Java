@@ -1,0 +1,10 @@
+import org.graalvm.compiler.asm.sparc.SPARCAssembler.CC;
+
+public class TestaContas {
+
+	public static void main(String[] args) {
+		CC
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package capituloII;
+
+public class OperadoresRelacionales {
+	
+	public static void main(String[] args) {
+		
+		boolean esUnoMayorQueDos = 1 > 2;
+		System.out.println("Uno es mayor que dos? " + esUnoMayorQueDos);
+		
+		boolean esUnocomaCincoMenorQueSieteComaDos = 1.5 < 7.2;
+		
+	}
+
+}

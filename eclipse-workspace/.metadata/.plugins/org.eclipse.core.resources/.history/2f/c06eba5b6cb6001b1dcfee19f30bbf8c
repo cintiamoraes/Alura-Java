@@ -1,0 +1,21 @@
+package capituloII;
+
+public class OperadoresLogicos {
+
+	public static void main(String[] args) {
+		
+		//Operador & - and
+		System.out.println("false & false es: "+ (false &false));
+		System.out.println("true & false es: "+ (true &false));
+		System.out.println("false & true es: "+ (false &true));
+		System.out.println("true & true es: "+ (true & true));
+		
+		//Operador - and de circuito corto
+		System.out.println("false && false es: "+ (false && false));
+		System.out.println("true && false es: "+ (true && false));
+		System.out.println("false && true es: "+ (false && true));
+		System.out.println("true && true es: "+ (true && true));
+		
+	}
+	
+}

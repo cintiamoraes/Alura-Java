@@ -1,0 +1,18 @@
+package capituloII;
+
+public class OperadoresAritmeticos {
+
+	public static void main(String[] args) {
+		
+		int numeroDos = 2;
+		int numeroTres = 3;
+		
+		int resultadoSuma = numeroDos + numeroTres;
+		System.out.println("el resultado de la suma es: " resultadoSuma);
+		
+		int resultadoResta = numeroTres - numeroDos;
+		
+		
+	}
+	
+}

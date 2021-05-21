@@ -1,0 +1,11 @@
+package capituloII;
+
+public class TiposDeDatosPrimitivos {
+		public static void main(String[] args) {
+			byte elMenorByte = Byte.MIN_VALUE;
+			byte elMayorByte = Byte.MAX_VALUE;
+			System.out.println("El byte es un número entero de 8 bits con signo. Está comprendido entre el -128 y 127");		
+		
+	}
+
+}

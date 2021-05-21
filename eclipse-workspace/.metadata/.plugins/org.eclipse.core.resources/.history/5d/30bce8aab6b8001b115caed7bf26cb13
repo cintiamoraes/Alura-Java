@@ -1,0 +1,11 @@
+//aula de herança
+//Gerente é um funcionário e herda a class Funcionario
+
+public class EditorVideo extends Funcionario{	
+	
+public double getBonificacao() {
+	System.out.println("chamndo o metodo de bonificacao do Editor de Video");
+	return super.getBonificacao() + 100;  
+	}	
+	
+}
