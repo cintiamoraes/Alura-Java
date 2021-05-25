@@ -1,0 +1,19 @@
+
+public class TesteConexao {
+
+	public static void main(String[] args) {
+	    Conexao con = null;
+	    try {
+	        con = new Conexao();
+	        con.leDados();
+	    } catch(IllegalStateException ex) {
+	        System.out.println("Deu erro na conexao");
+	        
+	        //finally é opcional que colocamos ao final e que sempre será executado, com ou sem erro. 
+	        //Não é necessário repetir o código para fechar a conexão.
+	    } finally {
+	        con.fecha();
+	    }
+	}
+	
+}

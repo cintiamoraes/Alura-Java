@@ -1,0 +1,12 @@
+package br.com.bitebank.banco.teste;
+
+import br.com.bitebank.banco.Modelo.ContaCorrente;
+
+public class TesteArrayDeReferencias {
+
+	public static void main(String[] args) {
+		ContaCorrente[] contas = new ContaCorrente[5];
+
+	}
+
+}

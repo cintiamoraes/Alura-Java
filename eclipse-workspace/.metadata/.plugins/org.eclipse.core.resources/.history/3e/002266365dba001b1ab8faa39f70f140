@@ -1,0 +1,10 @@
+package Modelo;
+public class Modelo.SeguroDeVida implements Teste.Tributavel {
+
+	@Override
+	public double Modelo.getValorImposto() {
+		
+		return 42;
+	}
+
+}

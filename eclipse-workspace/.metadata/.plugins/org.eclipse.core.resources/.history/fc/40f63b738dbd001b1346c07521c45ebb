@@ -1,0 +1,17 @@
+package br.com.bitebank.banco.Modelo;
+
+import br.com.bitebank.banco.teste.Contas;
+
+public class GuardadorDeContas {
+
+	
+	public static void main(String[] args) {
+		
+		 private Contas[] referencias;
+		 
+		 public GuardadorDeContas();
+		 
+		 this.referencias = new conta[10];
+	}
+	
+}

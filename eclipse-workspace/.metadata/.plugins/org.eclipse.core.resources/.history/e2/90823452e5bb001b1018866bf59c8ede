@@ -1,0 +1,24 @@
+package br.com.bitebank.banco.teste;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+
+		String nome = "Alura";// object literal
+
+		// String outra = nome.replace("A","a");
+		//System.out.println(nome);
+		// nome.toLowerCase();
+
+		//char c = 'A';
+		//char d = 'a';
+		//String outra = nome.replace(c, d);
+		//System.out.println(outra);
+		
+		char c = nome.charAt(2);
+		System.out.println(c);
+
+		
+	}
+
+}
